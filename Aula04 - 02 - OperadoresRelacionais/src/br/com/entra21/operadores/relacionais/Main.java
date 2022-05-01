@@ -28,7 +28,8 @@ public class Main {
 		
 		resultado = idadeA >= idadeB;
 		
-		System.out.println(+idadeA+ "é maior ou igual (>=) que " +idadeB+"?");
+		System.out.println(+idadeA+ "é maior ou igual (>=) que " +idadeB+" ? "+resultado);
+		
 		
 		
 		

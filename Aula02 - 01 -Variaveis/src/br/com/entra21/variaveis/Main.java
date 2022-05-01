@@ -9,9 +9,9 @@ public class Main {
 	public static void main(String[] args) {
 
 		byte idade;
-		idade = 19;
+		idade = 33;
 
-		byte outraIdade = 19;
+		byte outraIdade = 34;
 
 		short ano = 2022;
 
@@ -20,9 +20,10 @@ public class Main {
 		anoPassado = 2021;
 
 		System.out.println("Minha idade é " + (idade + outraIdade));
+
 		System.out.println("Estamos em " + ano + " e ano passado foi " + anoPassado + ".");
 
-		int habitantesBrasil = 2120600;
+		int habitantesBrasil = 212060000;
 
 		System.out.println("No Brasil em " + ano + " temos exatamente " + habitantesBrasil + " habitantes. ");
 
@@ -31,56 +32,61 @@ public class Main {
 
 		double habitantesAtualmente = 7900000000.00;
 
-		float peso = 70.5f, altura = 1.75f;
+		float peso = 70.5f, altura = 2.05f;
 
 		System.out.println("Meu peso é " + peso);
 		System.out.println("Minha altura é " + altura);
 
-		/*char letra = 'R';
+		char letra = 'R';
 
-		boolean intervaloAntesdasOito = false;
-		boolean intervaloAgora = true; */
+		boolean intervaloAntesDasOito = false;
+		boolean intervaloAgora = true;
 
-		String nomeCompleto = "Gabriel Candido de Sousa";
+		String nomeCompleto = "";
 
-		String nome = "Gabriel";
+		String nome;
 		byte minhaIdade;
-		float minhaAltura = 1.75f, salario = 0f;
+		float minhaAltura, salario;
 
 		Scanner entrada;
 		entrada = new Scanner(System.in);
 
-		System.out.println("Por favor qual é o seu nome");
-		nome = entrada.next();
+		/*
+		 * System.out.println("Por favor qual é o seu nome?"); nome =
+		 * entrada.nextLine();
+		 * 
+		 * System.out.println("Informe a sua idade:"); minhaIdade = entrada.nextByte();
+		 * 
+		 * System.out.println("Informe agora altura:"); minhaAltura =
+		 * entrada.nextFloat();
+		 * 
+		 * System.out.println("Informe seu salario sem mentir:"); salario =
+		 * entrada.nextFloat();
+		 * 
+		 * System.out.println("Bem vindo " + nome +
+		 * " agora consigo interagir com humanos já sei que vc tem " + minhaIdade +
+		 * " anos.");
+		 * 
+		 * System.out.println("O " + nome + " que tem " + minhaAltura +
+		 * "cm disse que ganha " + salario + " será mesmo?");
+		 */
 
-		System.out.println("Informe sua idade");
-		minhaIdade = entrada.nextByte();
+		nome = JOptionPane.showInputDialog("Informe novamente o seu nome completo");//syso + Scanner ao mesmo tempo
 
-		System.out.println("Informe agora sua altura");
-		altura = entrada.nextFloat();
+		JOptionPane.showMessageDialog(null, "Legal agora eu aprendi o seu nome " + nome);
+		
+		minhaIdade = Byte.parseByte(
+				JOptionPane.showInputDialog("Informe a sua idade")
+				) ;
+		
+		salario = Float.parseFloat( 
+				JOptionPane.showInputDialog("Informe seu salario")
+				);
+		
+		 
+		
+		JOptionPane.showMessageDialog(null, "Tá bom vc ganha "+salario);
 
-		System.out.println("Infome seu salario");
-		salario = entrada.nextFloat();
-
-		System.out.println(
-				"Bem vindo" + nome + "agora consigo interagir com humanos já sei que vc tem " + minhaIdade + "anos.");
-		
-		System.out.println("O " + nome + " que tem " + minhaAltura + "cm disse que ganha" + salario + " será mesmo?");
-		
-
-		nome = JOptionPane.showInputDialog("Informe novamente o seu nome completo");
-		
-		JOptionPane.showMessageDialog(null, " legal agora eu aprendi o seu nome " +nome);
-		
-		minhaIdade = Byte.parseByte(JOptionPane.showInputDialog("informe sua idade"));
-		
-		JOptionPane.showMessageDialog(null, "Hmm então sua idade é "+idade);
-		
-		salario = Float.parseFloat(JOptionPane.showInputDialog("Qual é o seu salario?"));
-		
-		JOptionPane.showMessageDialog(null,"Seu salario é "+salario);
-		
-		
 		
 		
 		
