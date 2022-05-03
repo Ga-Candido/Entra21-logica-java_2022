@@ -20,8 +20,8 @@ public class Main {
 		System.out.println("Qual o valor de custo do produto "+nomeProduto+" ?");
 		precoCusto = entrada.nextFloat();
 		
-		precoVenda = precoCusto + ( precoCusto * 10 /100);//forma longa
-		precoVenda = precoCusto*1.10f; //truque da matematica
+		precoVenda = precoCusto + ( precoCusto * 60 /100);//forma longa
+		precoVenda = precoCusto*1.60f; //truque da matematica
 		
 		System.out.println("O preço de venda é "+precoVenda);
 		

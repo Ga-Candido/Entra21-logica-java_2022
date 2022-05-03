@@ -15,7 +15,7 @@ public class Main {
 		System.out.println("Então vc é "+ (condicao?"de maior":"de menor") );
 		
 		
-		byte idade = 30;
+		byte idade = 10;
 		
 		if(idade>17) {
 			System.out.println("Vc é de maior");
@@ -23,7 +23,7 @@ public class Main {
 			System.out.println("Vc é de menor");
 		}
 		
-		System.out.println("Vc é de "+  (idade>17?" de maior":" de menor" ));
+		System.out.println("Você é de "+ (idade>17? " de maior":" de menor" ));
 		
 	}
 
