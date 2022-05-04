@@ -3,8 +3,7 @@ package br.com.entra21.operador.relacional;
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
+				
 		byte  numeroA,numeroB;
 		boolean resultado;
 		
