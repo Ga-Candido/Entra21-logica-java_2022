@@ -15,7 +15,7 @@ public class Main {
 		nome = input.next();
 		
 
-		System.out.println("Olá "+nome+ "tudo bem? ");
+		System.out.println("Olá "+nome+ " tudo bem? ");
 		System.out.println("Por gentileza,informe sua altura.");
 		altura = input.nextFloat();
 		
