@@ -11,7 +11,7 @@ public class Main {
 		boolean resultado;
 		
 		idadeA=10;
-		idadeB=10;
+		idadeB=20;
 		
 		resultado= idadeA==idadeB;
 		

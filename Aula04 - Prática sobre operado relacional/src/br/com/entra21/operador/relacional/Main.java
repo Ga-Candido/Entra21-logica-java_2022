@@ -12,11 +12,14 @@ public class Main {
 		 
 		
 		resultado = (numeroA > numeroB);
-		System.out.println("Este número " +numeroA+ "é maior que o numero" +numeroB+ "? "+resultado);
-
+		System.out.println("Este número " +numeroA+ " é maior que o numero " +numeroB+ "? "+resultado);
+		resultado = (numeroA >= numeroB);
+		System.out.println("Este número " +numeroA+ " é maior ou igual que o numero " +numeroB+ "? "+resultado);
+		resultado = (numeroA < numeroB);
+		System.out.println("Este número " +numeroA+ " é menor que o numero " +numeroB+ "? "+resultado);
 		
-		
-		
+		resultado = (numeroA <= numeroB);
+		System.out.println("Este número " +numeroA+ " é menor ou igual que o numero " +numeroB+ "? "+resultado);
 		
 
 
